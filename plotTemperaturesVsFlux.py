@@ -31,8 +31,8 @@ ROOT.gStyle.SetTitleOffset(1.0,'X')
 ROOT.gStyle.SetTitleOffset(1.0,'Y')
 
 
-#OneLoop = True
-OneLoop = False
+OneLoop = True
+#OneLoop = False
 
 if (OneLoop == False):
     #runnumber  = [15, 14, 9]
@@ -46,6 +46,11 @@ if (OneLoop == False):
     flux       = [0.60, 0.75]
 
 else:
+    #runnumber  = [39, 38, 37,36]
+    #t_lauda    = [16, 16, 16, 16]
+    #t_box      = [17.8, 17.8, 17.8, 17.8]
+    #flux       = [0.53, 0.65, 0.73, 0.76]
+    
     runnumber  = [31, 32, 33,34]
     t_lauda    = [20, 20, 20, 20]
     t_box      = [19.9, 19.9, 19.9, 19.9]
